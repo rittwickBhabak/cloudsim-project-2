@@ -85,6 +85,19 @@ CloudSimExample4.java : shows how to create two datacenters with one host each a
 
 CloudSimExample5.java : shows how to create two datacenters with one host each and run cloudlets of two users on them. 
 
+
+
+CloudSimExample1.java : shows how to create a datacenter with one host and run one cloudlet on it.
+
+CloudSimExample2.java : shows how to create a datacenter with one host and run two cloudlets on it.
+			The cloudlets run in VMs with the same MIPS requirements. The cloudlets will take the same 
+			time to complete the execution.
+
+CloudSimExample3.java : shows how to create a datacenter with two hosts and run two cloudlets on it.
+			The cloudlets run in VMs with different MIPS requirements. The cloudlets will take different 
+			time to complete the execution depending on the requested VM performance.
+			
+			The course will involve three large programming projects done in groups of two to three students. These project assignments will be announced at the start of the semester with definite submission deadlines. The set of assignments will be designed to develop skills and familarity with a majority of the following: make, configuration management tools, installation of software, archiving and creation of libraries, version control systems, documentation and literate programming systems, GUI creation, distributed state maintenance over a network, programming in different environments like desktop and handhelds, program parsing and compilation including usage of standard libraries like pthreads, numerical packages, XML and semi-structured data, simulation environments, testing and validation tools.
 CloudSimExample6.java : shows how to create scalable simulations.
 
 CloudSimExample7.java : shows how to pause simulations.
